@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.0');
-  api.addFiles(['thunk.js', 'vendor/es5-shim.js'], 'client');
+  api.addFiles(['thunk.js', 'vendor/es5-shim.js', 'vender/es5-sham.js'], 'client');
 });
 
 Package.onTest(function(api) {
